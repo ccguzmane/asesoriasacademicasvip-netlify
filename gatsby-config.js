@@ -5,6 +5,21 @@ module.exports = {
       'Clases, nivelaciones, trabajos, tesis, traducciones, ediciones, creación de juegos, creación de videojuegos, asesorías educativas, empresariales.',
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Asesorías Académicas VIP`,
+        short_name: `Asesorías Académicas VIP`,
+        start_url: `/`,
+        background_color: `#FFFFFF`,
+        theme_color: `#2D88FF`,
+        // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
+        // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
+        display: `standalone`,
+        icon: `src/img/logo2.png`, // This path is relative to the root of the site.
+      },
+    },
+    `gatsby-plugin-offline`,
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     {
