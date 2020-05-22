@@ -5,6 +5,9 @@ import Navbar from '../components/Navbar'
 import './all.sass'
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
+import favicon16 from '../img/favicon-16x16.png'
+import favicon32 from '../img/favicon-32x32.png'
+
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata()
@@ -23,13 +26,13 @@ const TemplateWrapper = ({ children }) => {
         <link
           rel="icon"
           type="image/png"
-          href={`${withPrefix('/')}img/favicon-32x32.png`}
+          href={favicon32}
           sizes="32x32"
         />
         <link
           rel="icon"
           type="image/png"
-          href={`${withPrefix('/')}img/favicon-16x16.png`}
+          href={favicon16}
           sizes="16x16"
         />
 
