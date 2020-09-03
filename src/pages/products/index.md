@@ -1,16 +1,15 @@
 ---
-heading: Great coffee with a conscience
+heading: Saludat
 path: /products
 templateKey: product-page
 title: Nuestros Productos
 image: /img/leigh-cooper-ezqypozdozw-unsplash.jpg
-description: Kaldi is the ultimate spot for coffee lovers who want to learn
-  about their java’s origin and support the farmers that grew it. We take coffee
-  production, roasting and brewing seriously and we’re glad to pass that
-  knowledge to anyone.
+description: Saludat es una herramienta que te permite administrar datos
+  importantes para la salud cómo lo son la temperatura, síntomas de enfermedades
+  y porcentaje de ocupación de personas en un espacio.
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image: /img/logo-saludat3-02.png
       text: >
         We sell green and roasted coffee beans that are sourced directly from
         independent farmers and farm cooperatives. We’re proud to offer a
